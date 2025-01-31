@@ -34,7 +34,7 @@ export default function Home() {
       <div className="p-4 flex justify-center">
         <div className="border-4 inline-block rounded-lg max-w-full">
           <Image
-            src="/assets/img/hoiquanLeChau_1.jpg"
+            src="/assets/img/hoiquanLechau_1.jpg"
             alt="Hội quán Lệ Châu"
             className="object-cover rounded-lg w-full max-w-[800px] h-auto"
             width={1000}
