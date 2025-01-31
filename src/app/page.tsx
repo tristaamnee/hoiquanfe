@@ -37,6 +37,8 @@ export default function Home() {
             src="/assets/img/hoiquanLeChau_1.jpg"
             alt="Hội quán Lệ Châu"
             className="object-cover rounded-lg w-full max-w-[800px] h-auto"
+            width={1000}
+            height={800}
           />
         </div>
       </div>
