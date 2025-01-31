@@ -1,4 +1,5 @@
 import { Roboto } from "next/font/google";
+import Image from "next/image";
 
 const roboto = Roboto({
   weight: ["400", "500", "700"],
@@ -32,7 +33,7 @@ export default function Home() {
       </div>
       <div className="p-4 flex justify-center">
         <div className="border-4 inline-block rounded-lg max-w-full">
-          <img
+          <Image
             src="/assets/img/hoiquanLeChau_1.jpg"
             alt="Hội quán Lệ Châu"
             className="object-cover rounded-lg w-full max-w-[800px] h-auto"
