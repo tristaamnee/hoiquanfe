@@ -1,5 +1,6 @@
 "use client";
 
+import ImageBox from "@/components/ImageBox";
 import TextBox from "@/components/TextBox";
 import { Roboto } from "next/font/google";
 import Image from "next/image";
@@ -40,17 +41,26 @@ export default function Home() {
           ngói cong, chạm khắc tinh xảo và những bức phù điêu ý nghĩa.`}
         className="p-4 flex justify-center text-white text-justify"
       />
-      <div className="flex justify-center">
-        <div className="border-4 inline-block rounded-lg w-4/5">
-          <Image
-            src="/assets/img/hoiquanLechau_1.jpg"
-            alt="Hội quán Lệ Châu"
-            className="object-fit rounded-lg w-full h-auto"
-            width={width}
-            height={800}
-          />
-        </div>
-      </div>
+      <ImageBox
+        url={"/assets/img/hoiquanLechau_1.jpg"}
+        alt={"Hội quán Lệ Châu"}
+        width={width}
+        height={800}
+      />
+      <TextBox
+        text={`Bên trong hội quán là nơi thờ cúng các vị thần linh quan trọng, trong đó có Thiên Hậu Thánh Mẫu – vị thần bảo trợ của người Hoa. Không gian nội thất mang đậm nét cổ kính với những bức hoành phi, câu đối và tượng thờ trang nghiêm.`}
+        className="p-4 flex justify-center text-white text-justify"
+      />
+      <ImageBox
+        url={"/assets/img/hoiquanLechau_3.jpg"}
+        alt={"Hội quán Lệ Châu"}
+        width={width}
+        height={800}
+      />
+      <TextBox
+        text={`Hàng năm, hội quán tổ chức nhiều hoạt động tín ngưỡng và lễ hội truyền thống, thu hút đông đảo người dân và du khách đến tham dự. Đây là một trong những trung tâm văn hóa quan trọng, góp phần bảo tồn bản sắc của cộng đồng người Hoa tại Việt Nam.`}
+        className="p-4 flex justify-center text-white text-justify"
+      />
     </div>
   );
 }
