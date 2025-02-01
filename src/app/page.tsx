@@ -30,7 +30,7 @@ export default function Home() {
       >
         <div className="absolute inset-0 bg-black opacity-70 rounded-lg"></div>
         <p className="text-white text-center text-5xl font-bold relative leading-relaxed rounded-lg">
-          HỘI QUÁN{window.innerWidth < 62 ? "" : <br />} LỆ CHÂU
+          HỘI QUÁN{width < 62 ? "" : <br />} LỆ CHÂU
         </p>
       </div>
       <TextBox
