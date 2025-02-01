@@ -14,7 +14,7 @@ export default function Home() {
   const [width, setWidth] = useState(1000);
 
   useEffect(() => {
-    setWidth(window.innerWidth * 0.8);
+    setWidth(window.innerWidth * 0.9);
   }, []);
 
   return (
@@ -40,12 +40,12 @@ export default function Home() {
           ngói cong, chạm khắc tinh xảo và những bức phù điêu ý nghĩa.`}
         className="p-4 flex justify-center text-white text-justify"
       />
-      <div className="p-4 flex justify-center">
+      <div className="flex justify-center">
         <div className="border-4 inline-block rounded-lg w-4/5">
           <Image
             src="/assets/img/hoiquanLechau_1.jpg"
             alt="Hội quán Lệ Châu"
-            className="object-cover rounded-lg w-full h-auto"
+            className="object-fit rounded-lg w-full h-auto"
             width={width}
             height={800}
           />
