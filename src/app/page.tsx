@@ -18,19 +18,19 @@ export default function Home() {
   }, []);
 
   return (
-    <div className={roboto.className}>
+    <div className={roboto.className + " pb-4 px-4"}>
       <TextBox
         text="DI TÍCH KIẾN TRÚC NGHỆ THUẬT QUỐC GIA"
         className="py-4 flex justify-center text-white text-center text-3xl font-bold"
       />
 
       <div
-        className="py-[10rem] flex justify-center bg-cover bg-bottom bg-no-repeat relative"
+        className="py-[10rem] flex justify-center bg-cover bg-bottom bg-no-repeat relative rounded-lg"
         style={{ backgroundImage: "url(/assets/img/hoiquanLeChau_2.jpg)" }}
       >
-        <div className="absolute inset-0 bg-black opacity-70"></div>
-        <p className="text-white text-center text-5xl font-bold relative leading-relaxed">
-          HỘI QUÁN LỆ CHÂU
+        <div className="absolute inset-0 bg-black opacity-70 rounded-lg"></div>
+        <p className="text-white text-center text-5xl font-bold relative leading-relaxed rounded-lg">
+          HỘI QUÁN{window.innerWidth < 62 ? "" : <br />} LỆ CHÂU
         </p>
       </div>
       <TextBox
