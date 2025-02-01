@@ -51,7 +51,7 @@ export default function Home() {
         className="p-4 flex justify-center text-white text-justify"
       />
       <ImageBox
-        url={"/assets/img/hoiquanLechau_3.jpg"}
+        url={"/assets/img/hoiquanLeChau_3.jpg"}
         alt={"Hội quán Lệ Châu"}
         width={width}
         height={800}
