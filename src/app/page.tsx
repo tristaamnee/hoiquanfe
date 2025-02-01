@@ -3,7 +3,6 @@
 import ImageBox from "@/components/ImageBox";
 import TextBox from "@/components/TextBox";
 import { Roboto } from "next/font/google";
-import Image from "next/image";
 import { useEffect, useState } from "react";
 
 const roboto = Roboto({
