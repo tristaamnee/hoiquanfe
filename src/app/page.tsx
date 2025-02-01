@@ -3,7 +3,7 @@
 import TextBox from "@/components/TextBox";
 import { Roboto } from "next/font/google";
 import Image from "next/image";
-import { use, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 const roboto = Roboto({
   weight: ["400", "500", "700"],
