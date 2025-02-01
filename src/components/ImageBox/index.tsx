@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 interface ImageBoxProps {
@@ -18,7 +19,7 @@ function ImageBox({
   return (
     <div className={className}>
       <div className="border-4 inline-block rounded-lg w-4/5">
-        <img
+        <Image
           src={url}
           alt={alt}
           className="object-fit rounded-lg w-full h-auto"
